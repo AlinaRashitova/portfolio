@@ -1,0 +1,35 @@
+@import url(../../vendor/normalize.css);
+
+@import url(../../vendor/fonts.css);
+
+.app {
+  color: #fff;
+  min-height: 100vh;
+  z-index: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+.app__container {
+  background-color: #020C18;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 100%;
+  min-width: 320px;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 750px) {
+  .app__container {
+    gap: 80px;
+  }
+}

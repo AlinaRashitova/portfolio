@@ -1,0 +1,25 @@
+.section-title {
+  margin: 0 0 46px;
+}
+
+@media screen and (min-width: 750px) {
+  .section-title {
+    margin: 0 0 56px;
+  }
+}
+
+.section-title__text {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 22px;
+  font-family: "JETBRAINS MONO", sans-serif;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+@media screen and (min-width: 750px) {
+  .section-title__text {
+    font-size: 32px;
+  }
+}
